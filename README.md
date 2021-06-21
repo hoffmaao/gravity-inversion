@@ -1,1 +1,3 @@
 # gravity-inversion
+
+This code supports libraries for solving the expontentially ill-posed problem of "inverse gravitmetry," obtaining the density distribution of the subsurface ($\rho$(\textbf{r})) from boundary observations of a harmonic gravity potential field. Newtonian gravitational potential corrected for first-order effects such as the Earth's equilibrium shape and its rotation, varies continuously across the Earth's surface according to inhomogeneities in the mass density of the earth interior. Accounting for an independently known or presumed regional background mass distribution, we consider the relation between localized density perturbations, a mass anomaly at depth within a domain $\Omega$ and the anomalous potential $u(\textbf{r})$ that it generatres.

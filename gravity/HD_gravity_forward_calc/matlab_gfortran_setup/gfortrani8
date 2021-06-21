@@ -1,0 +1,11 @@
+#/bin/ksh
+
+# delete -i8 and call gfortran on what is left, assuming gfortran is in the same directory
+
+for arg do
+  shift
+  [ "$arg" = "-i8" ] && continue
+  set -- "$@" "$arg"
+done
+
+"${0%/*}/gfortran" "$@"
